@@ -1,0 +1,55 @@
+// найти сумму отрицательных элементов
+program lab6_2;
+
+uses
+  System.SysUtils;
+
+Label next, metka;
+
+var
+  A: array [1 .. 10] of integer;
+  i, Sum1, Sum2,count: integer;
+
+begin
+  randomize;
+  Writeln('Введите 10 элементов массива:');
+  for i := 1 to 10 do
+  begin
+    // Write(i,' Элемент: ');
+    // Readln(A[i]);
+    A[i] := random(10) - 5;
+    Writeln(A[i]);
+  end;
+
+  i := 1;
+  count:=0;
+  while i <= 10 do
+  begin
+    if A[i] < 0 then
+      inc(count);
+    inc(i);
+  end;
+
+  Writeln('Количество отрицательных элементов через Delphi: ', count);
+
+  asm
+    //адрес массива
+    lea esi,A
+    mov eax, 0
+    mov ebx, 0
+    mov ecx, 10
+    mov dl,0
+    metka:
+    cmp dl, [esi+ebx] // Сравниваем два числа
+    jle next // если  dl <= [esi+ebx]
+    inc eax
+    next:
+    add ebx, 1*4 // Смещаем адрес на 4 байта так как интеджер
+    loopnz metka // цикл ЕСХ раз
+    mov count, eax
+  end;
+
+  Writeln('Количество отрицательных элементов через ассемблерную вставку:', count);
+  Readln;
+
+end.
