@@ -1,0 +1,21 @@
+﻿Построение начато 15.03.2020 19:34:22.
+     1>Проект "D:\БГУИР\Кафедра ЭВС\Предметы\ЯП\Лабораторная работа №6\lab6_example_arith\lab6_example_arith\lab6_example_arith.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lab6_example_arith.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lab6_example_arith.cpp
+         lab6_example_arith.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\БГУИР\Кафедра ЭВС\Предметы\ЯП\Лабораторная работа №6\lab6_example_arith\Debug\lab6_example_arith.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lab6_example_arith.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\БГУИР\Кафедра ЭВС\Предметы\ЯП\Лабораторная работа №6\lab6_example_arith\Debug\lab6_example_arith.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\БГУИР\Кафедра ЭВС\Предметы\ЯП\Лабораторная работа №6\lab6_example_arith\Debug\lab6_example_arith.lib" /MACHINE:X86 Debug\lab6_example_arith.obj
+     1>lab6_example_arith.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+         lab6_example_arith.vcxproj -> D:\БГУИР\Кафедра ЭВС\Предметы\ЯП\Лабораторная работа №6\lab6_example_arith\Debug\lab6_example_arith.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\БГУИР\Кафедра ЭВС\Предметы\ЯП\Лабораторная работа №6\lab6_example_arith\Debug\lab6_example_arith.exe;#1" /manifest Debug\lab6_example_arith.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\lab6_example_arith.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lab6_example_arith.lastbuildstate".
+     1>Построение проекта "D:\БГУИР\Кафедра ЭВС\Предметы\ЯП\Лабораторная работа №6\lab6_example_arith\lab6_example_arith\lab6_example_arith.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.05
